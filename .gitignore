@@ -1,0 +1,11 @@
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# OS files
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+temp/

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">    
+   <title>Product Landing Page</title>
+   <link rel="stylesheet" href="styles.css"/>
+  </head>
+
+<body>
+ <div class = container>
+  <header id="header">
+    <img src="https://static-assets.codecademy.com/Courses/intro-to-ui-and-ux/wireframes/Codecademy_navy.svg"
+         alt="a logo image" 
+         id="header-img">
+         
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="#form" class="nav-link">form</a></li>
+        <li><a href="#video" class="nav-link">video</a></li>
+        <li><a href="#footer" class="nav-link">footer</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <iframe id="video"
+      width="768" height="432" 
+      src="https://www.youtube.com/embed/dUJpPZvz8zY"           
+      title="Build a Personal Portfolio Webpage - Responsive Web Design Projects - Free Code Camp" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
+      allowfullscreen>
+    </iframe>
+    <form id="form"
+          method="POST"
+          action="https://www.freecodecamp.org/email-submit">
+          <hr></hr>
+          <legend>Enter your details here</legend>
+          <hr></hr>
+      <label for="email">Email:</label>
+      <input id="email"
+             type="email" 
+             name="email" 
+             required 
+             placeholder="email@example.com">
+
+      <label for="name">Full Name</label>
+      <input id="name" 
+             type="text" 
+             name="name" 
+             required>
+
+      <label for="submit">Submit</label>
+      <input id="submit" 
+             type="submit" 
+             name="submit-button">
+
+      <label for="textarea">Leave Your message here</label>
+      <textarea id="textarea"
+             type="text"
+             placeholder="write your message here"></textarea>       
+    </form> 
+  </main>       
+  <footer id="footer"></footer>
+ 
+ </div>
+</body>
+
+</html>
