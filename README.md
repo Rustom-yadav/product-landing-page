@@ -4,7 +4,7 @@ A responsive product landing page built with **pure HTML and CSS** as part of fr
 
 ## Live Demo
 Check out the live version here:  
-[live page link will be here](https://github.com/Rustom-yadav/product-landing-page.git)
+[https://rustom-yadav.github.io/product-landing-page/](https://github.com/Rustom-yadav/product-landing-page.git)
 
 ## Features
 - Fully responsive design (mobile, tablet, desktop)
